@@ -1,7 +1,14 @@
 {
-  "name": "nuxt-app",
+  "name": "yanglee2421.netlify.app",
   "private": true,
   "type": "module",
+  "description": "nuxt & netlify",
+  "homepage": "https://yanglee2421.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yanglee2421/yanglee2421.netlify.app",
+    "directory": "/"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
