@@ -1,12 +1,27 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const menus = [
+  {
+    href: "/components/button",
+    label: "button",
+  },
+  {
+    href: "/components/list",
+    label: "list",
+  },
+  {
+    href: "/components/table",
+    label: "table",
+  },
+];
+</script>
 
 <template>
   <div
-    class="flex min-h-dvh flex-col divide-y bg-white text-slate-700 dark:bg-black dark:text-slate-200"
+    class="flex min-h-dvh flex-col divide-y bg-white text-slate-900 antialiased dark:bg-slate-900 dark:text-white"
   >
     <header class="flex items-center px-5 py-2">
       <NuxtLink to="/" class="me-auto">
-        <h2 class="text-xl">Just TailwindCSS</h2>
+        <h2 class="text-xl tracking-tight">Just TailwindCSS</h2>
       </NuxtLink>
       <div class="flex items-center gap-2">
         <div
@@ -16,19 +31,20 @@
         </div>
         <div>
           <p class="text-sm">Yotu_Lee</p>
-          <p class="text-xs">hello world</p>
+          <p class="text-xs text-slate-500 dark:text-slate-400">hello world</p>
         </div>
       </div>
     </header>
     <main class="flex flex-auto divide-x">
-      <aside class="px-5 py-2">
+      <aside class="w-48">
         <nav>
           <ul>
-            <li class="">
-              <NuxtLink to="/components/button">Button</NuxtLink>
-            </li>
-            <li class="">
-              <NuxtLink to="/components/list">List</NuxtLink>
+            <li v-for="item in menus" :key="item.href">
+              <NuxtLink
+                :to="item.href"
+                class="block w-full px-5 py-2 font-medium capitalize tracking-wide text-slate-500 hover:bg-gray-100 hover:text-blue-500 aria-[current=page]:text-blue-600"
+                >{{ item.label }}</NuxtLink
+              >
             </li>
           </ul>
         </nav>
