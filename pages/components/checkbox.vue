@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout name="custom">
-    <div class="*:shadow">
+    <div class="space-y-6 *:shadow">
       <section>
         <div class="max-w-md bg-white px-4 py-6 shadow">
           <fieldset class="space-y-3">

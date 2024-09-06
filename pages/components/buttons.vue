@@ -25,11 +25,7 @@ const colorSchema = {
   <NuxtLayout name="custom">
     <div class="space-y-6">
       <section class="space-y-1">
-        <p
-          class="text-base font-semibold capitalize tracking-wide text-slate-900"
-        >
-          red
-        </p>
+        <p class="paper font-semibold capitalize tracking-wide">red</p>
         <p class="flex flex-wrap gap-2 rounded border p-3 shadow">
           <button class="min-w-16 rounded bg-red-500 px-3 py-1 text-white">
             red
@@ -48,11 +44,7 @@ const colorSchema = {
         </p>
       </section>
       <section class="space-y-1">
-        <p
-          class="text-base font-semibold capitalize tracking-wide text-slate-900"
-        >
-          green
-        </p>
+        <p class="paper font-semibold capitalize tracking-wide">green</p>
         <p class="flex flex-wrap gap-2 rounded border p-3 shadow">
           <button class="min-w-16 rounded bg-green-500 px-3 py-1 text-white">
             green
@@ -71,11 +63,7 @@ const colorSchema = {
         </p>
       </section>
       <section class="space-y-1">
-        <p
-          class="text-base font-semibold capitalize tracking-wide text-slate-900"
-        >
-          blue
-        </p>
+        <p class="paper font-semibold capitalize tracking-wide">blue</p>
         <p class="flex flex-wrap gap-2 rounded border p-3 shadow">
           <button class="min-w-16 rounded bg-blue-500 px-3 py-1 text-white">
             blue
@@ -94,11 +82,7 @@ const colorSchema = {
         </p>
       </section>
       <section class="space-y-1">
-        <p
-          class="text-base font-semibold capitalize tracking-wide text-slate-900"
-        >
-          indigo
-        </p>
+        <p class="paper font-semibold capitalize tracking-wide">indigo</p>
         <p class="flex flex-wrap gap-2 rounded border p-3 shadow">
           <button class="min-w-16 rounded bg-indigo-500 px-3 py-1 text-white">
             indigo
@@ -117,11 +101,7 @@ const colorSchema = {
         </p>
       </section>
       <section class="space-y-1">
-        <p
-          class="text-base font-semibold capitalize tracking-wide text-slate-900"
-        >
-          disabled
-        </p>
+        <p class="paper font-semibold capitalize tracking-wide">disabled</p>
         <p class="flex flex-wrap gap-2 rounded border p-3 shadow">
           <button
             disabled
