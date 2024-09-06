@@ -97,6 +97,29 @@ const colorSchema = {
         <p
           class="text-base font-semibold capitalize tracking-wide text-slate-900"
         >
+          indigo
+        </p>
+        <p class="flex flex-wrap gap-2 rounded border p-3 shadow">
+          <button class="min-w-16 rounded bg-indigo-500 px-3 py-1 text-white">
+            indigo
+          </button>
+          <button class="min-w-16 rounded bg-indigo-600 px-3 py-1 text-white">
+            indigo:hover
+          </button>
+          <button class="min-w-16 rounded bg-indigo-700 px-3 py-1 text-white">
+            indigo:active
+          </button>
+          <button
+            class="min-w-16 rounded bg-indigo-500 px-3 py-1 text-white outline outline-offset-2 outline-indigo-400"
+          >
+            indigo:focus
+          </button>
+        </p>
+      </section>
+      <section class="space-y-1">
+        <p
+          class="text-base font-semibold capitalize tracking-wide text-slate-900"
+        >
           disabled
         </p>
         <p class="flex flex-wrap gap-2 rounded border p-3 shadow">
