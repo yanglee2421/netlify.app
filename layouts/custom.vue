@@ -24,6 +24,10 @@ const menus = [
     href: "/components/textfield",
     label: "textfield",
   },
+  {
+    href: "/components/card",
+    label: "card",
+  },
 ];
 </script>
 
