@@ -1,3 +1,19 @@
+<script setup lang="ts">
+import { NuxtPage } from "#components";
+
+useHeadSafe({
+  link: [
+    {
+      type: "image/vnd.microsoft.icon",
+      href: "favicon.ico",
+      rel: "icon",
+    },
+  ],
+});
+</script>
+
 <template>
-  <NuxtPage />
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>

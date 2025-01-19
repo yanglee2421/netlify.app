@@ -1,17 +1,14 @@
 <script lang="ts" setup>
-useHead({
-  titleTemplate(productCategory) {
-    return productCategory
-      ? `${productCategory} - Just TailwindCSS`
-      : "Just TailwindCSS";
-  },
+definePageMeta({
+  layout: false,
 });
 </script>
 
 <template>
-  <NuxtLayout name="custom">
-    <div>home</div>
-  </NuxtLayout>
+  <div>
+    <NuxtRouteAnnouncer />
+    <NuxtWelcome />
+  </div>
 </template>
 
 <style lang="scss" scoped></style>
