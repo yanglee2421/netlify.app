@@ -13,7 +13,7 @@ useHeadSafe({
 </script>
 
 <template>
-  <NuxtLayout>
+  <div class="dark">
     <NuxtPage />
-  </NuxtLayout>
+  </div>
 </template>
